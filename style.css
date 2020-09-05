@@ -2,9 +2,11 @@ body {
   display: -webkit-box;
   display: flex;
   min-height: 100vh;
+  background: #fff;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+
 }
 
 main {
@@ -12,7 +14,7 @@ main {
           flex: 1 0 auto;
 }
 
-h1.title,
+h1.ml3,
 .footer-copyright a {
   font-family: 'Architects Daughter', cursive;
   text-transform: uppercase;
@@ -22,7 +24,7 @@ h1.title,
 /* start welcome animation */
 
 body.welcome {
-  background: #512da8;
+  background: #0a183d;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
 }
